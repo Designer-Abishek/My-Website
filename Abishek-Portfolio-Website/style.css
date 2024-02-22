@@ -1,0 +1,202 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* ------ Navbar Secyion ------ */
+.navbar {
+    background: linear-gradient(45deg, rgba(153, 121, 46, 0.95), rgb(12, 72, 120, 0.95));
+}
+
+/* ------ Home Section ------ */
+.home-bg {
+    background: url(./images/Abishek\ -\ Chess\ Pawn.png) no-repeat;
+    background: url(./images/Abishek\ -\ Chess\ Pawn\ -\ Gradient.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+.hero-padding {
+    padding: 30px 0;
+}
+
+.hero-wrapper {
+    background: linear-gradient(45deg, rgba(153, 121, 46, 75%), rgb(12, 72, 120, 75%));
+    /* -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px); */
+}
+
+@media (max-width: 1023px) {
+    .hero-wrapper {
+        margin: auto;
+    }    
+}
+
+@media (min-width: 1024px) {
+    .hero-padding {
+        padding-top: 180px;
+    }
+
+    .hero-wrapper {
+        margin: 0 0 0 30px;
+    } 
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+/* ------ About Section ------ */
+.about-bg {
+    background: linear-gradient(45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1));
+
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.aboutMe-wrapper {
+    /* background: linear-gradient(-45deg, rgba(153, 121, 46, 0.5), rgb(12, 72, 120, 0.5)); */
+    background: linear-gradient(-45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1));
+}
+
+/* .about-profile-pic {
+    transform: scaleX(-1);
+} */
+
+/* ------ Skills Section ------ */
+.skills-bg {
+    background: linear-gradient(-45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1));
+
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.skills-wrapper {
+    /* background: #fff;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ------ Graphic Design ------ */
+.photoshop-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/gd-ps.png) no-repeat;
+    background-size: cover;
+}
+
+.illustrator-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/gd-ai.png) no-repeat;
+    background-size: cover;
+}
+
+.indesign-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/gd-id.png) no-repeat;
+    background-size: cover;
+}
+
+.premierpro-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/gd-pr.png) no-repeat;
+    background-size: cover;
+}
+
+.coreldraw-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/gd-cdr.png) no-repeat;
+    background-size: cover;
+}
+
+
+/* ------ Web Design ------ */
+.html-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/wd-html.png) no-repeat;
+    background-size: cover;
+}
+
+.css-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/wd-css.png) no-repeat;
+    background-size: cover;
+}
+
+.javascript-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/wd-js.png) no-repeat;
+    background-size: cover;
+}
+
+.bootstrap-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/wd-bs.jpg) no-repeat;
+    background-size: cover;
+}
+
+.figma-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/wd-fg.png) no-repeat;
+    background-size: cover;
+}
+
+/* ------ Chess ------ */
+.lichess-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/ch-lichess.png) no-repeat;
+    background-size: cover;
+}
+
+.fide-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/ch-fide.jpg) no-repeat;
+    background-size: cover;
+}
+
+.chesscom-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/ch-chesscom.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.chess24-logo {
+    height: 100px;
+    width: 100px;
+    background: url(./images/ch-chess24.png) no-repeat;
+    background-size: cover;
+
+}
+
+/* ------ Contact Section ------ */
+.contact-bg {
+    background: linear-gradient(45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1));
+
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2); */
+}
+
+/* ------ Footer Section ------ */
+.footer-bg {
+    background: linear-gradient(-45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1));
+    /* background: linear-gradient(45deg, rgba(153, 121, 46, 1), rgb(12, 72, 120, 1)); */
+}
